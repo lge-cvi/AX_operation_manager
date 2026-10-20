@@ -491,7 +491,18 @@
 <div class="part-content collapsed" id="part4">
 <a class="curriculum-item block" href="#dash-build">4-1. 같은 데이터로 대시보드</a>
 <a class="curriculum-item block" href="#slide-build">4-2. 같은 데이터로 발표자료</a>
-<a class="curriculum-item block" href="#dash-share">4-3. 공유 기준 · 마무리</a>
+<a class="curriculum-item block" href="#dash-share">4-3. 공유 기준</a>
+</div>
+</div>
+<!-- PART 5 -->
+<div class="part-group">
+<button class="part-header collapsed" id="btn-part5" onclick="togglePart('part5')">
+<span>PART 5. 조별 실습 · 발표</span>
+<i class="fas fa-chevron-down text-xs"></i>
+</button>
+<div class="part-content collapsed" id="part5">
+<a class="curriculum-item block" href="#group-lab">5-1. 조별 실습 · 발표</a>
+<a class="curriculum-item block" href="#closing">5-2. 마무리 &amp; Q&amp;A</a>
 </div>
 </div>
 </div>
@@ -506,9 +517,9 @@
                     쓰는 시간을 줄이고,<br/>판단하는 시간을 늘립니다
                 </h1>
 <p class="hero-fade text-lg mt-5 max-w-2xl" style="animation-delay:.3s;color:rgba(255,255,255,.92)">Microsoft Copilot으로 메일·보고·데이터를 다루고, 개선 원인을 실행계획으로 정리해 대시보드와 보고용 발표자료까지 만들어 봅니다. <strong>설치 없이, 코딩 없이</strong> — 오늘 실습한 것을 내일 센터에서 바로 씁니다.</p>
-<div class="hero-fade flex flex-wrap gap-2.5 mt-8" style="animation-delay:.45s"><a class="hero-chip" href="#intro"><i class="fas fa-1"></i> AI 기본기 · 프롬프트 · 보안</a><a class="hero-chip" href="#lab-mail"><i class="fas fa-2"></i> 메일 · 보고</a><a class="hero-chip" href="#lab-excel"><i class="fas fa-3"></i> 데이터 · 실행계획</a><a class="hero-chip" href="#dash-build"><i class="fas fa-4"></i> 대시보드 · 발표자료</a></div>
+<div class="hero-fade flex flex-wrap gap-2.5 mt-8" style="animation-delay:.45s"><a class="hero-chip" href="#intro"><i class="fas fa-1"></i> AI 기본기 · 프롬프트 · 보안</a><a class="hero-chip" href="#lab-mail"><i class="fas fa-2"></i> 메일 · 보고</a><a class="hero-chip" href="#lab-excel"><i class="fas fa-3"></i> 데이터 · 실행계획</a><a class="hero-chip" href="#dash-build"><i class="fas fa-4"></i> 대시보드 · 발표자료</a><a class="hero-chip" href="#group-lab"><i class="fas fa-5"></i> 조별 실습 · 발표</a></div>
 <div class="hero-fade flex flex-wrap items-center gap-6 mt-9 text-sm" style="animation-delay:.6s;color:rgba(255,255,255,.9)">
-<span><i class="fas fa-clock mr-1.5"></i>10:30~15:30 · 교육 4시간 + 점심 1시간</span>
+<span><i class="fas fa-clock mr-1.5"></i>11:00~16:00 · AX 1차 90분 + 2차 150분</span>
 <span><i class="fas fa-laptop mr-1.5"></i>노트북 지참 · 개인 실습</span>
 <span><i class="fas fa-shield-halved mr-1.5"></i>사내 보안 환경</span>
 <a class="ml-auto inline-flex items-center gap-2 bg-white text-[#C10933] font-bold px-6 py-3 rounded-full hover:bg-gray-100 transition shadow-lg" href="#intro">
@@ -562,97 +573,45 @@
 </div>
 </div>
 <!-- 전체 교육 시간표 -->
-            <div class="mb-10 p-6 bg-white border-2 border-[#C10933] rounded-2xl shadow-sm">
-                <div class="flex flex-wrap items-baseline justify-between gap-2 mb-5">
-                    <h3 class="font-bold text-lg text-[#C10933]"><i class="fas fa-calendar-alt mr-2"></i>서비스센터 실장 4시간 교육 일정</h3>
-                    <span class="text-sm text-gray-500 font-medium">10:30 ~ 15:30 · <strong class="text-gray-700">교육 4시간 + 점심 1시간 · 4교시</strong></span>
-                </div>
-
-                <div class="flex items-center gap-3 px-4 py-2.5 mb-3 bg-gray-50 border border-gray-200 rounded-xl text-sm">
-                    <span class="font-mono text-gray-500 w-28 shrink-0">10:30~10:40</span>
-                    <span class="px-2 py-0.5 bg-gray-200 text-gray-700 rounded text-xs font-bold shrink-0">오리엔테이션</span>
-                    <span class="text-gray-600">교육 안내 · Copilot 로그인 점검</span>
-                    <span class="ml-auto text-xs text-gray-400 shrink-0">10분</span>
-                </div>
-
-                <!-- 1교시 -->
-                <div class="flex items-stretch rounded-xl border border-gray-200 overflow-hidden mb-2">
-                    <div class="w-24 shrink-0 bg-red-50 text-center flex flex-col justify-center py-3 px-2 border-r border-gray-200">
-                        <p class="text-lg font-bold text-[#C10933] leading-none">1교시</p>
-                        <p class="text-xs font-mono text-gray-500 mt-1.5">10:40~11:30</p>
-                        <p class="text-xs text-gray-400 mt-0.5">50분</p>
-                    </div>
-                    <div class="flex-1 p-4">
-                        <span class="px-2 py-0.5 bg-red-100 text-[#C10933] rounded text-xs font-bold">PART 1 · AI 기본기</span>
-                        <p class="font-bold text-gray-800 mt-2 mb-1.5">AI를 제대로 쓰기 위한 토대</p>
-                        <div class="flex flex-wrap gap-1.5 text-xs text-gray-500">
-                            <span class="px-2 py-0.5 bg-gray-100 rounded">AX 개념</span>
-                            <span class="px-2 py-0.5 bg-gray-100 rounded">AI 원리</span>
-                            <span class="px-2 py-0.5 bg-gray-100 rounded">프롬프트</span>
-                            <span class="px-2 py-0.5 bg-gray-100 rounded">보안·검증</span>
-                            <span class="px-2 py-0.5 bg-gray-100 rounded">Copilot 접속</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center text-xs text-amber-600 my-1.5"><i class="fas fa-mug-hot mr-1"></i>휴식 11:30~11:40 (10분)</div>
-
-                <!-- 2교시 -->
-                <div class="flex items-stretch rounded-xl border border-gray-200 overflow-hidden mb-2">
-                    <div class="w-24 shrink-0 bg-red-50 text-center flex flex-col justify-center py-3 px-2 border-r border-gray-200">
-                        <p class="text-lg font-bold text-[#C10933] leading-none">2교시</p>
-                        <p class="text-xs font-mono text-gray-500 mt-1.5">11:40~12:30</p>
-                        <p class="text-xs text-gray-400 mt-0.5">50분</p>
-                    </div>
-                    <div class="flex-1 p-4">
-                        <span class="px-2 py-0.5 bg-red-100 text-[#C10933] rounded text-xs font-bold">PART 2 · 메일·보고</span>
-                        <p class="font-bold text-gray-800 mt-2 mb-1.5">메일과 메모를 바로 쓰는 문서으로</p>
-                        <div class="flex flex-wrap gap-1.5 text-xs text-gray-500">
-                            <span class="px-2 py-0.5 bg-gray-100 rounded">메일 요약·회신</span>
-                            <span class="px-2 py-0.5 bg-gray-100 rounded">스코어카드 메일</span>
-                            <span class="px-2 py-0.5 bg-gray-100 rounded">메모 → 보고 문서</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center text-xs text-blue-600 font-bold my-1.5 py-1.5 bg-blue-50 rounded-lg"><i class="fas fa-utensils mr-1"></i>점심 12:30~13:30 (60분)</div>
-
-                <!-- 3교시 -->
-                <div class="flex items-stretch rounded-xl border border-gray-200 overflow-hidden mb-2">
-                    <div class="w-24 shrink-0 bg-red-50 text-center flex flex-col justify-center py-3 px-2 border-r border-gray-200">
-                        <p class="text-lg font-bold text-[#C10933] leading-none">3교시</p>
-                        <p class="text-xs font-mono text-gray-500 mt-1.5">13:30~14:30</p>
-                        <p class="text-xs text-gray-400 mt-0.5">60분</p>
-                    </div>
-                    <div class="flex-1 p-4">
-                        <span class="px-2 py-0.5 bg-red-100 text-[#C10933] rounded text-xs font-bold">PART 3 · 데이터·실행계획</span>
-                        <p class="font-bold text-gray-800 mt-2 mb-1.5">스코어카드에서 원인을 찾고 실행계획까지</p>
-                        <div class="flex flex-wrap gap-1.5 text-xs text-gray-500">
-                            <span class="px-2 py-0.5 bg-gray-100 rounded">스코어카드 분석</span>
-                            <span class="px-2 py-0.5 bg-gray-100 rounded">관리포인트 도출</span>
-                            <span class="px-2 py-0.5 bg-gray-100 rounded">실행계획 · 지시 문서</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center text-xs text-amber-600 my-1.5"><i class="fas fa-mug-hot mr-1"></i>휴식 14:30~14:40 (10분)</div>
-
-                <!-- 4교시 -->
-                <div class="flex items-stretch rounded-xl border-2 border-[#C10933] overflow-hidden mb-2 shadow-sm">
-                    <div class="w-24 shrink-0 bg-[#C10933] text-white text-center flex flex-col justify-center py-3 px-2">
-                        <p class="text-lg font-bold leading-none">4교시</p>
-                        <p class="text-xs font-mono text-red-100 mt-1.5">14:40~15:30</p>
-                        <p class="text-xs text-red-100 mt-0.5">50분</p>
-                    </div>
-                    <div class="flex-1 p-4">
-                        <span class="px-2 py-0.5 bg-[#C10933] text-white rounded text-xs font-bold">PART 4 · 대시보드·발표자료</span>
-                        <p class="font-bold text-gray-800 mt-2 mb-1.5">같은 데이터, 두 가지 형식으로 보여주기</p>
-                        <div class="flex flex-wrap gap-1.5 text-xs text-gray-600">
-                            <span class="px-2 py-0.5 bg-red-50 border border-red-100 rounded">대시보드 25분</span>
-                            <span class="px-2 py-0.5 bg-red-50 border border-red-100 rounded">발표자료 20분</span>
-                            <span class="px-2 py-0.5 bg-red-50 border border-red-100 rounded">공유·마무리 5분</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- 사전 발송 파일 -->
+<div class="mb-10 p-6 bg-white border-2 border-[#C10933] rounded-2xl shadow-sm">
+<div class="flex flex-wrap items-baseline justify-between gap-2 mb-5">
+<h3 class="font-bold text-lg text-[#C10933]"><i class="fas fa-calendar-alt mr-2"></i>2026 실장 세미나 · AX 교육 일정 (1일차)</h3>
+<span class="text-sm text-gray-500 font-medium">11:00 ~ 16:00 · <strong class="text-gray-700">AX 1차 90분 + AX 2차 150분</strong></span>
+</div>
+<p class="text-xs font-bold text-gray-500 mb-2 tracking-wider">AX 1차 교육 · 11:00~12:30 — 실장업무 관점의 AX 활용방향과 사례</p>
+<div class="flex items-center gap-3 px-4 py-2.5 mb-2 bg-gray-50 border border-gray-200 rounded-xl text-sm">
+<span class="font-mono text-gray-500 w-28 shrink-0">11:00~11:05</span>
+<span class="px-2 py-0.5 bg-gray-200 text-gray-700 rounded text-xs font-bold shrink-0">오리엔테이션</span>
+<span class="text-gray-600">Copilot 로그인 점검</span><span class="ml-auto text-xs text-gray-400 shrink-0">5분</span></div>
+<div class="flex items-stretch rounded-xl border border-gray-200 overflow-hidden mb-2">
+<div class="w-24 shrink-0 bg-red-50 border-r border-gray-200 text-center flex flex-col justify-center py-3 px-2">
+<p class="text-lg font-bold text-[#C10933] leading-none">1교시</p><p class="text-xs font-mono text-gray-500 mt-1.5">11:05~11:45</p><p class="text-xs text-gray-500 mt-0.5">40분</p></div>
+<div class="flex-1 p-4"><span class="px-2 py-0.5 bg-red-100 text-[#C10933] rounded text-xs font-bold">PART 1 · AI 기본기</span>
+<p class="font-bold text-gray-800 mt-2 mb-1.5">AI를 제대로 쓰기 위한 토대</p><div class="flex flex-wrap gap-1.5 text-xs text-gray-600"><span class="px-2 py-0.5 bg-gray-100 rounded">AX 개념</span><span class="px-2 py-0.5 bg-gray-100 rounded">AI 원리</span><span class="px-2 py-0.5 bg-gray-100 rounded">프롬프트</span><span class="px-2 py-0.5 bg-gray-100 rounded">보안·검증</span><span class="px-2 py-0.5 bg-gray-100 rounded">Copilot 접속</span></div></div></div>
+<div class="flex items-stretch rounded-xl border border-gray-200 overflow-hidden mb-2">
+<div class="w-24 shrink-0 bg-red-50 border-r border-gray-200 text-center flex flex-col justify-center py-3 px-2">
+<p class="text-lg font-bold text-[#C10933] leading-none">2교시</p><p class="text-xs font-mono text-gray-500 mt-1.5">11:45~12:30</p><p class="text-xs text-gray-500 mt-0.5">45분</p></div>
+<div class="flex-1 p-4"><span class="px-2 py-0.5 bg-red-100 text-[#C10933] rounded text-xs font-bold">PART 2 · 메일·보고</span>
+<p class="font-bold text-gray-800 mt-2 mb-1.5">메일과 메모를 바로 쓰는 문서로</p><div class="flex flex-wrap gap-1.5 text-xs text-gray-600"><span class="px-2 py-0.5 bg-gray-100 rounded">메일 요약·회신</span><span class="px-2 py-0.5 bg-gray-100 rounded">스코어카드 메일</span><span class="px-2 py-0.5 bg-gray-100 rounded">메모 → 보고 문서</span></div></div></div>
+<div class="text-center text-xs text-blue-600 font-bold my-1.5 py-1.5 bg-blue-50 rounded-lg"><i class="fas fa-utensils mr-1"></i>점심 12:30~13:30 (60분)</div>
+<p class="text-xs font-bold text-gray-500 mb-2 mt-4 tracking-wider">AX 2차 교육 · 13:30~16:00 — 실습·적용업무 도출 및 결과 공유</p>
+<div class="flex items-stretch rounded-xl border border-gray-200 overflow-hidden mb-2">
+<div class="w-24 shrink-0 bg-red-50 border-r border-gray-200 text-center flex flex-col justify-center py-3 px-2">
+<p class="text-lg font-bold text-[#C10933] leading-none">3교시</p><p class="text-xs font-mono text-gray-500 mt-1.5">13:30~14:10</p><p class="text-xs text-gray-500 mt-0.5">40분</p></div>
+<div class="flex-1 p-4"><span class="px-2 py-0.5 bg-red-100 text-[#C10933] rounded text-xs font-bold">PART 3 · 데이터·실행계획</span>
+<p class="font-bold text-gray-800 mt-2 mb-1.5">스코어카드에서 원인을 찾고 실행계획까지</p><div class="flex flex-wrap gap-1.5 text-xs text-gray-600"><span class="px-2 py-0.5 bg-gray-100 rounded">스코어카드 분석</span><span class="px-2 py-0.5 bg-gray-100 rounded">관리포인트 도출</span><span class="px-2 py-0.5 bg-gray-100 rounded">실행계획 · 지시 문서</span></div></div></div>
+<div class="flex items-stretch rounded-xl border border-gray-200 overflow-hidden mb-2">
+<div class="w-24 shrink-0 bg-red-50 border-r border-gray-200 text-center flex flex-col justify-center py-3 px-2">
+<p class="text-lg font-bold text-[#C10933] leading-none">4교시</p><p class="text-xs font-mono text-gray-500 mt-1.5">14:10~14:50</p><p class="text-xs text-gray-500 mt-0.5">40분</p></div>
+<div class="flex-1 p-4"><span class="px-2 py-0.5 bg-red-100 text-[#C10933] rounded text-xs font-bold">PART 4 · 대시보드·발표자료</span>
+<p class="font-bold text-gray-800 mt-2 mb-1.5">같은 데이터, 두 가지 형식으로 보여주기</p><div class="flex flex-wrap gap-1.5 text-xs text-gray-600"><span class="px-2 py-0.5 bg-gray-100 rounded">대시보드</span><span class="px-2 py-0.5 bg-gray-100 rounded">발표자료</span><span class="px-2 py-0.5 bg-gray-100 rounded">공유 기준</span></div></div></div>
+<div class="flex items-stretch rounded-xl border-2 border-[#C10933] shadow-sm overflow-hidden mb-2">
+<div class="w-24 shrink-0 bg-[#C10933] text-white text-center flex flex-col justify-center py-3 px-2">
+<p class="text-lg font-bold leading-none">5교시</p><p class="text-xs font-mono text-red-100 mt-1.5">14:50~16:00</p><p class="text-xs text-red-100 mt-0.5">70분</p></div>
+<div class="flex-1 p-4"><span class="px-2 py-0.5 bg-[#C10933] text-white rounded text-xs font-bold">PART 5 · 조별 실습·발표</span>
+<p class="font-bold text-gray-800 mt-2 mb-1.5">내 센터 업무 하나를 골라 직접 만들고 발표</p><div class="flex flex-wrap gap-1.5 text-xs text-gray-600"><span class="px-2 py-0.5 bg-red-50 border border-red-100 rounded">제작 실습 30분</span><span class="px-2 py-0.5 bg-red-50 border border-red-100 rounded">조별 발표 30분</span><span class="px-2 py-0.5 bg-red-50 border border-red-100 rounded">마무리 10분</span></div></div></div>
+</div>
+<!-- 사전 발송 파일 -->
 <div class="mb-10 p-6 bg-white border-2 border-gray-200 rounded-2xl">
 <h3 class="font-bold text-xl text-gray-800 mb-2"><i class="fas fa-paperclip text-[#C10933] mr-2"></i>실습 파일 확인 — 교육 전에 메일로 받은 4개</h3>
 <p class="text-sm text-gray-600 mb-4">아래 파일을 <strong>바탕화면의 한 폴더</strong>에 모아 두세요. 실습 중 "○○ 파일을 첨부하세요"라고 하면 이 이름의 파일을 쓰면 됩니다.</p>
@@ -738,7 +697,7 @@
 <p class="text-sm text-gray-600 mb-3">내가 매일 쓰는 글과 찾아보는 일에서 시간을 번다.</p>
 <ul class="text-xs text-gray-500 space-y-1.5">
 <li><i class="fas fa-check text-blue-500 mr-1.5"></i>회신 메일 초안을 5분 → 1분으로</li>
-<li><i class="fas fa-check text-blue-500 mr-1.5"></i>보고 문서을 메모 3줄에서 뽑아내기</li>
+<li><i class="fas fa-check text-blue-500 mr-1.5"></i>보고 문서를 메모 3줄에서 뽑아내기</li>
 <li><i class="fas fa-check text-blue-500 mr-1.5"></i>개선 원인을 실행계획으로 바로 정리하기</li>
 </ul>
 </div>
@@ -791,134 +750,19 @@
                 어려운 기술을 배우자는 게 아닙니다. 이걸 알면 <strong class="text-[#C10933]">AI가 어떤 일에 강하고, 어떤 일에서 틀리는지</strong>가 저절로 보입니다.
             </p>
 <p class="text-sm text-gray-600 mb-8">특히 우리 업무에서는 이 차이가 중요합니다. AI에게 <strong>맡겨도 되는 일</strong>과 <strong>절대 맡기면 안 되는 일</strong>이 여기서 갈립니다.</p>
-<!-- LLM 작동 원리 — 인터랙티브 위젯 -->
-<div class="mb-8 bg-white border border-red-200 rounded-2xl overflow-hidden axg-shell" data-axg-widget>
-<style>
-@keyframes axgPulse{0%,100%{box-shadow:0 0 0 0 rgba(193,9,51,.24)}50%{box-shadow:0 0 0 7px rgba(193,9,51,0)}}
-@keyframes axgScanOnce{0%{transform:translateX(-110%);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translateX(340%);opacity:0}}
-@keyframes axgPop{0%{opacity:0;transform:translateY(8px) scale(.95)}100%{opacity:1;transform:translateY(0) scale(1)}}
-.axg-shell{font-family:inherit;box-shadow:0 10px 26px rgba(31,31,31,.05)}
-.axg-top{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;padding:20px 22px 16px;background:linear-gradient(135deg,#fff 0%,#fff7f8 100%);border-bottom:1px solid #f4d5dc}
-.axg-kicker{font-size:11px;font-weight:800;color:#C10933;letter-spacing:.08em;text-transform:uppercase;margin-bottom:5px}
-.axg-title{font-size:19px;line-height:1.35;font-weight:800;color:#1f1f1f}
-.axg-sub{font-size:12px;line-height:1.65;color:#5f5e5a;margin-top:4px}
-.axg-mode{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-width:126px;padding:8px 12px;border:1px solid #efb7c5;border-radius:99px;background:#fff;color:#8d0829;font-size:11px;font-weight:800;white-space:nowrap}
-.axg-mode:before{content:'';width:7px;height:7px;border-radius:50%;background:#C10933;box-shadow:0 0 0 4px rgba(193,9,51,.10)}
-.axg-flow{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:7px;padding:12px 22px;background:#fbfaf8;border-bottom:1px solid #ece9e3}
-.axg-flow-step{position:relative;display:flex;align-items:center;gap:7px;padding:8px 8px;border:1px solid #dedbd4;border-radius:9px;background:#fff;color:#6b6964;font-size:10.5px;font-weight:700;transition:.35s ease;min-width:0}
-.axg-flow-step:not(:last-child):after{content:'›';position:absolute;right:-7px;top:50%;transform:translate(50%,-50%);z-index:2;width:15px;height:15px;border-radius:50%;background:#ebe8e1;color:#817f79;text-align:center;line-height:14px;font-size:14px}
-.axg-flow-step b{display:grid;place-items:center;width:20px;height:20px;border-radius:6px;background:#f1efe8;color:#77746e;font-size:10px;flex:0 0 auto}
-.axg-flow-step.is-active{border-color:#C10933;background:#fff4f6;color:#8d0829;box-shadow:0 0 0 2px rgba(193,9,51,.07)}
-.axg-flow-step.is-active b{background:#C10933;color:#fff}.axg-flow-step.is-done{border-color:#efb7c5;color:#3f3d39}.axg-flow-step.is-done b{background:#f8dbe2;color:#8d0829}
-.axg-guide{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:12px;padding:13px 22px;background:#fff;border-bottom:1px solid #ece9e3}
-.axg-guide-count{display:inline-flex;align-items:center;justify-content:center;min-width:72px;padding:6px 9px;border-radius:8px;background:#C10933;color:#fff;font-size:11px;font-weight:900;font-variant-numeric:tabular-nums}
-.axg-guide-copy{min-width:0}.axg-guide-title{font-size:13px;font-weight:900;color:#292824}.axg-guide-desc{margin-top:2px;font-size:11px;line-height:1.5;color:#66635e}
-.axg-dots{display:flex;align-items:center;gap:5px}.axg-dot{width:7px;height:7px;border-radius:50%;background:#d8d4cd;transition:.3s ease}.axg-dot.is-done{background:#efb7c5}.axg-dot.is-active{width:19px;border-radius:99px;background:#C10933}
-.axg-body{padding:17px 22px 20px;background:#fff}.axg-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(280px,.95fr);gap:12px}
-.axg-card{position:relative;border:1px solid #dedbd4;border-radius:12px;background:#fff;padding:13px;overflow:hidden;min-width:0;transition:border-color .35s ease,box-shadow .35s ease,background .35s ease}
-.axg-card.is-active{border-color:#C10933;box-shadow:0 0 0 2px rgba(193,9,51,.07)}
-.axg-label{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:9px;color:#6b6964;font-size:10px;font-weight:800;letter-spacing:.06em;text-transform:uppercase}.axg-label span{color:#C10933;letter-spacing:0;text-transform:none;font-weight:700}
-.axg-question{grid-column:1/-1;display:grid;grid-template-columns:118px 1fr;align-items:center;gap:13px;background:#faf9f7}.axg-question.is-active{background:#fff8fa}
-.axg-qtag{display:flex;align-items:center;justify-content:center;min-height:42px;border-radius:9px;background:#1f1f1f;color:#fff;font-size:12px;font-weight:800}.axg-qtext{font-size:14px;line-height:1.55;font-weight:700;color:#282724}
-.axg-tokens{display:flex;flex-wrap:wrap;gap:6px;align-content:flex-start;min-height:72px}.axg-token{display:inline-flex;align-items:center;min-height:31px;padding:5px 9px;border:1px solid #d9d6ce;border-radius:8px;background:#f4f2ed;color:#65625d;font-size:12px;font-weight:700;transition:.45s cubic-bezier(.2,.8,.2,1)}.axg-token.is-on{background:#fff1f4;border-color:#C10933;color:#8d0829;animation:axgPulse 1.05s ease}.axg-hint{width:100%;margin-top:1px;font-size:10px;color:#85827b;line-height:1.45}
-.axg-patterns{display:grid;gap:6px;position:relative}.axg-pattern{padding:7px 9px;border-radius:8px;background:#f7f6f2;border:1px solid #e5e2da;color:#68655f;font-size:10.5px;line-height:1.45;transition:.55s ease}.axg-pattern strong{color:#3c3a36}.axg-pattern.is-match{background:#fff4f6;border-color:#eab1bf;color:#8d0829}.axg-scan{display:none;position:absolute;inset:0 auto 0 0;width:32%;background:linear-gradient(90deg,transparent,rgba(193,9,51,.12),transparent);pointer-events:none}.axg-card.is-scanning .axg-scan{display:block;animation:axgScanOnce 1.5s cubic-bezier(.2,.7,.2,1) both}
-.axg-candidates{display:grid;gap:7px}.axg-candidate{display:grid;grid-template-columns:68px minmax(0,1fr) 32px;align-items:center;gap:8px;padding:5px 7px;border-radius:8px;border:1px solid transparent;transition:.45s ease}.axg-candidate.is-picked{border-color:#C10933;background:#fff4f6}.axg-word{font-size:11px;font-weight:800;color:#3c3a36;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.axg-track{height:12px;border-radius:99px;background:#ece9e3;overflow:hidden}.axg-fill{height:100%;width:0;border-radius:inherit;background:#bbb7af;transition:width 1.15s cubic-bezier(.2,.8,.2,1)}.axg-candidate:first-child .axg-fill{background:#C10933}.axg-pct{font-size:10px;color:#77746e;text-align:right;font-variant-numeric:tabular-nums}
-.axg-repeat{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:14px;background:#1f1f1f;border-color:#1f1f1f;color:#fff;padding:15px 16px}.axg-answer-wrap{min-width:0}.axg-answer-label{display:flex;align-items:center;gap:8px;margin-bottom:8px;color:#f0b7c5;font-size:10px;font-weight:800;letter-spacing:.06em;text-transform:uppercase}.axg-loop{display:inline-flex;align-items:center;gap:5px;padding:3px 7px;border-radius:99px;background:rgba(255,255,255,.09);color:#fff;font-size:10px;letter-spacing:0;text-transform:none}.axg-answer{display:flex;flex-wrap:wrap;align-items:center;gap:5px;min-height:40px;font-size:15px;font-weight:800;line-height:1.55}.axg-placeholder{color:#aaa8a3;font-size:12px;font-weight:600}.axg-out-token{display:inline-block;color:#fff}.axg-out-token.is-new{color:#ffb5c7;animation:axgPop .58s cubic-bezier(.2,.8,.2,1) both}.axg-caret{width:2px;height:21px;background:#ff8fab;animation:axgPulse 1.1s ease infinite}.axg-repeat-arrow{font-size:25px;color:#ff9bb4}.axg-round{min-width:88px;text-align:center;font-size:11px;color:#d3d0ca}.axg-round strong{display:block;margin-top:3px;color:#fff;font-size:13px}
-.axg-warning{display:flex;align-items:flex-start;gap:11px;margin-top:12px;padding:12px 13px;border:1px solid #ead8dc;border-radius:11px;background:#fffafa;color:#6c5c60;font-size:12px;line-height:1.65;opacity:.48;transition:.45s ease}.axg-warning-icon{display:grid;place-items:center;flex:0 0 auto;width:25px;height:25px;border-radius:8px;background:#b9b2b4;color:#fff;font-size:13px;font-weight:900;transition:.45s ease}.axg-warning strong{color:#7e505c}.axg-warning.is-final{opacity:1;background:#ffe9ee;border-color:#C10933;color:#4e343a;box-shadow:0 0 0 3px rgba(193,9,51,.08)}.axg-warning.is-final .axg-warning-icon{background:#C10933}.axg-warning.is-final strong{color:#A50034}
-.axg-status{margin-top:10px;display:flex;align-items:center;justify-content:space-between;gap:8px;color:#77746e;font-size:10px}.axg-status b{color:#C10933}
-.axg-nav{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:13px;padding-top:13px;border-top:1px solid #ece9e3}.axg-nav-actions{display:flex;align-items:center;gap:8px}.axg-btn{display:inline-flex;align-items:center;justify-content:center;min-height:38px;padding:8px 14px;border-radius:9px;border:1px solid #d8d4cd;background:#fff;color:#44413c;font-size:11px;font-weight:850;cursor:pointer;transition:transform .15s,background .2s,border-color .2s,color .2s;white-space:nowrap}.axg-btn:hover:not(:disabled){border-color:#C10933;color:#8d0829;background:#fff7f8}.axg-btn:active:not(:disabled){transform:scale(.97)}.axg-btn:disabled{opacity:.35;cursor:not-allowed}.axg-btn-next{min-width:104px;border-color:#C10933;background:#C10933;color:#fff;box-shadow:0 5px 12px rgba(193,9,51,.18)}.axg-btn-next:hover:not(:disabled){background:#A50034;color:#fff}.axg-keyhint{font-size:10px;line-height:1.4;color:#85827b}.axg-keyhint kbd{display:inline-grid;place-items:center;min-width:21px;height:21px;margin:0 2px;border:1px solid #d8d4cd;border-bottom-width:2px;border-radius:5px;background:#fff;color:#55514b;font:700 10px inherit}
-@media(max-width:880px){.axg-flow{grid-template-columns:repeat(3,1fr)}.axg-flow-step:nth-child(3):after{display:none}}
-@media(max-width:760px){.axg-top{padding:17px;flex-direction:column}.axg-mode{align-self:flex-start}.axg-flow{grid-template-columns:1fr;padding:10px 17px}.axg-flow-step:nth-child(3):after{display:block}.axg-flow-step:not(:last-child):after{content:'↓';right:14px;top:auto;bottom:-12px;transform:none}.axg-guide{grid-template-columns:auto minmax(0,1fr);padding:12px 17px}.axg-dots{grid-column:1/-1}.axg-body{padding:14px 17px 17px}.axg-grid{grid-template-columns:1fr}.axg-question,.axg-repeat{grid-column:1}.axg-question{grid-template-columns:1fr}.axg-qtag{min-height:34px}.axg-repeat{grid-template-columns:1fr}.axg-repeat-arrow{display:none}.axg-round{text-align:left}.axg-nav{align-items:flex-end}.axg-keyhint{display:none}.axg-btn{padding:8px 10px}.axg-btn-next{min-width:92px}}
-@media(prefers-reduced-motion:reduce){.axg-shell *{animation-duration:.01ms!important;transition-duration:.01ms!important}}
-</style>
-<div class="axg-top">
-<div>
-<div class="axg-kicker">시각화 · AI는 어떻게 답을 만드는가?</div>
-<div class="axg-title">AI는 ‘정답’을 꺼내는 것이 아니라, 다음에 올 말 조각을 하나씩 고릅니다</div>
-<div class="axg-sub">질문을 조각내어 읽고 → 학습한 문장 패턴과 비교하고 → 후보 확률을 계산해 → 가장 자연스러운 조각을 붙이는 일을 반복합니다.</div>
+<!-- AI 답변 원리 (간단) -->
+<div class="mb-10 p-6 bg-white border-2 border-red-100 rounded-2xl">
+<p class="text-xs font-bold text-[#C10933] tracking-wider mb-1">AI는 어떻게 답을 만드는가</p>
+<p class="text-xl font-bold text-gray-800 mb-5">AI는 정답을 찾아오는 게 아니라, <span class="text-[#C10933]">다음에 올 말을 하나씩 이어 붙입니다</span></p>
+<div class="grid md:grid-cols-3 gap-4 mb-5 text-sm">
+<div class="p-4 bg-gray-50 border border-gray-200 rounded-xl"><p class="text-2xl font-extrabold text-[#C10933] mb-1">1</p><p class="font-bold text-gray-800 mb-1">질문을 읽는다</p><p class="text-xs text-gray-600">"오늘 미처리 현황 요약해줘"를 <strong>단어 조각</strong>으로 나눠 읽습니다.</p></div>
+<div class="p-4 bg-gray-50 border border-gray-200 rounded-xl"><p class="text-2xl font-extrabold text-[#C10933] mb-1">2</p><p class="font-bold text-gray-800 mb-1">가장 그럴듯한 다음 말을 고른다</p><p class="text-xs text-gray-600">수많은 문장을 학습한 경험으로 "미처리 ○건은 → <strong>부품</strong>"처럼 <strong>자연스러운 다음 말</strong>을 고릅니다.</p></div>
+<div class="p-4 bg-gray-50 border border-gray-200 rounded-xl"><p class="text-2xl font-extrabold text-[#C10933] mb-1">3</p><p class="font-bold text-gray-800 mb-1">반복해서 문장을 완성한다</p><p class="text-xs text-gray-600">고른 말을 붙이고 다시 다음 말을 고르는 걸 반복해 <strong>한 문장, 한 문단</strong>을 만듭니다.</p></div>
 </div>
-
+<div class="p-4 bg-red-50 border-l-4 border-[#C10933] rounded-r-xl text-sm text-gray-700">
+<strong class="text-[#C10933]">그래서 —</strong> 문장은 아주 자연스럽지만, AI가 <strong>우리 센터 시스템에서 숫자를 조회한 것은 아닙니다.</strong>
+비유하면 <strong>말 잘하는 신입 직원</strong>입니다. 보고서는 그럴듯하게 쓰지만, <strong>숫자와 사실은 내가 준 자료로만 믿을 수 있습니다.</strong>
 </div>
-<div class="axg-flow" aria-label="AI 답변 생성 6단계">
-<div class="axg-flow-step" data-axg-step="0"><b>1</b>질문 입력</div>
-<div class="axg-flow-step" data-axg-step="1"><b>2</b>말 조각 분리</div>
-<div class="axg-flow-step" data-axg-step="2"><b>3</b>문장 패턴 비교</div>
-<div class="axg-flow-step" data-axg-step="3"><b>4</b>후보·확률 계산</div>
-<div class="axg-flow-step" data-axg-step="4"><b>5</b>단어 선택</div>
-<div class="axg-flow-step" data-axg-step="5"><b>6</b>답변 완성</div>
-</div>
-<div class="axg-guide" aria-live="polite">
-<div class="axg-guide-count" data-axg-stage-count>단계 1/6</div>
-<div class="axg-guide-copy"><div class="axg-guide-title" data-axg-stage-title>질문 입력</div><div class="axg-guide-desc" data-axg-stage-desc>AI가 받은 질문을 그대로 읽습니다. ‘다음’을 눌러 말 조각으로 나눠 보세요.</div></div>
-<div class="axg-dots" aria-hidden="true"><i class="axg-dot"></i><i class="axg-dot"></i><i class="axg-dot"></i><i class="axg-dot"></i><i class="axg-dot"></i><i class="axg-dot"></i></div>
-</div>
-<div class="axg-body">
-<div class="axg-grid">
-<div class="axg-card axg-question" data-axg-card="0"><div class="axg-qtag">서비스센터 질문</div><div class="axg-qtext">“오늘 접수된 서비스 요청과 미처리 현황을 한 문장으로 요약해 줘.”</div></div>
-<div class="axg-card" data-axg-card="1"><div class="axg-label">① 질문을 말 조각으로 읽기 <span data-axg-token-status>대기</span></div><div class="axg-tokens"><span class="axg-token">오늘</span><span class="axg-token">접수된</span><span class="axg-token">서비스</span><span class="axg-token">요청과</span><span class="axg-token">미처리</span><span class="axg-token">현황을</span><span class="axg-token">요약해 줘</span><div class="axg-hint">이런 작은 말 조각을 ‘토큰’이라고 합니다.</div></div></div>
-<div class="axg-card" data-axg-card="2"><div class="axg-label">② 학습한 문장 패턴 떠올리기 <span data-axg-pattern-status>대기</span></div><div class="axg-patterns"><div class="axg-scan"></div><div class="axg-pattern">“오늘 접수된 <strong>[건수]</strong>건 중 <strong>[미처리]</strong>건은 …”</div><div class="axg-pattern">“현재 미처리 <strong>[건수]</strong>건은 … 확인 중입니다.”</div><div class="axg-pattern">“금일 서비스 접수 현황은 …”</div></div></div>
-<div class="axg-card" data-axg-card="3"><div class="axg-label">③ 다음 말 후보의 확률 계산 <span data-axg-candidate-status>대기</span></div><div class="axg-candidates"><div class="axg-candidate"><div class="axg-word">오늘</div><div class="axg-track"><div class="axg-fill"></div></div><div class="axg-pct">54%</div></div><div class="axg-candidate"><div class="axg-word">현재</div><div class="axg-track"><div class="axg-fill"></div></div><div class="axg-pct">28%</div></div><div class="axg-candidate"><div class="axg-word">금일</div><div class="axg-track"><div class="axg-fill"></div></div><div class="axg-pct">18%</div></div></div></div>
-<div class="axg-card" data-axg-card="4"><div class="axg-label">④ 가장 그럴듯한 조각 선택 <span data-axg-pick-status>선택 전</span></div><div style="display:flex;align-items:center;gap:10px;min-height:72px;"><div style="display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:#C10933;color:#fff;font-weight:900;box-shadow:0 5px 12px rgba(193,9,51,.18);">✓</div><div><div style="font-size:14px;font-weight:800;color:#272622;" data-axg-picked>—</div><div style="margin-top:3px;font-size:10.5px;color:#77746e;line-height:1.45;">선택한 조각을 답에 붙이고<br>다음 조각 예측을 다시 시작합니다.</div></div></div></div>
-<div class="axg-card axg-repeat" data-axg-card="5"><div class="axg-answer-wrap"><div class="axg-answer-label">한 조각씩 완성되는 답 <span class="axg-loop">다음을 누를 때마다 한 조각</span></div><div class="axg-answer" aria-live="polite"><span class="axg-placeholder">이곳에 선택된 말 조각이 차례로 붙습니다.</span></div></div><div style="display:flex;align-items:center;gap:10px;"><div class="axg-repeat-arrow">↻</div><div class="axg-round">단어 진행<strong data-axg-round>0 / 7</strong></div></div></div>
-</div>
-<div class="axg-warning" data-axg-warning><div class="axg-warning-icon">!</div><div><strong>꼭 기억하세요.</strong> 완성된 문장이 자연스러워도 AI가 우리 센터 시스템에서 실제 숫자를 조회한 것은 아닙니다. <strong>접수 건수·미처리 건수·처리 상태 같은 숫자와 사실은 반드시 확인해야 합니다.</strong></div></div>
-<div class="axg-status"><span data-axg-status>강사가 ‘다음’을 누를 때만 다음 단계로 이동합니다.</span><b data-axg-progress>질문 확인</b></div>
-<div class="axg-nav">
-<div class="axg-keyhint"><kbd>←</kbd><kbd>→</kbd> 위젯이 화면에 보일 때 이전·다음</div>
-<div class="axg-nav-actions"><button type="button" class="axg-btn" data-axg-reset>처음부터</button><button type="button" class="axg-btn" data-axg-prev>◀ 이전</button><button type="button" class="axg-btn axg-btn-next" data-axg-next>다음 ▶</button></div>
-</div>
-</div>
-<script>
-(function(){
-  var widgets=document.querySelectorAll('[data-axg-widget]');
-  widgets.forEach(function(root){
-    if(root.dataset.axgReady==='1')return;root.dataset.axgReady='1';
-    var stage=1,wordCount=0,timers=[],animating=false;
-    var steps=[].slice.call(root.querySelectorAll('[data-axg-step]')),dots=[].slice.call(root.querySelectorAll('.axg-dot')),cards=[].slice.call(root.querySelectorAll('[data-axg-card]'));
-    var tokens=[].slice.call(root.querySelectorAll('.axg-token')),patterns=[].slice.call(root.querySelectorAll('.axg-pattern')),candidates=[].slice.call(root.querySelectorAll('.axg-candidate'));
-    var answer=root.querySelector('.axg-answer'),warning=root.querySelector('[data-axg-warning]'),status=root.querySelector('[data-axg-status]'),progress=root.querySelector('[data-axg-progress]');
-    var stageCount=root.querySelector('[data-axg-stage-count]'),stageTitle=root.querySelector('[data-axg-stage-title]'),stageDesc=root.querySelector('[data-axg-stage-desc]');
-    var tokenStatus=root.querySelector('[data-axg-token-status]'),patternStatus=root.querySelector('[data-axg-pattern-status]'),candidateStatus=root.querySelector('[data-axg-candidate-status]'),pickStatus=root.querySelector('[data-axg-pick-status]'),picked=root.querySelector('[data-axg-picked]'),roundEl=root.querySelector('[data-axg-round]');
-    var prevBtn=root.querySelector('[data-axg-prev]'),nextBtn=root.querySelector('[data-axg-next]'),resetBtn=root.querySelector('[data-axg-reset]');
-    var rounds=[
-      {pick:'오늘',alts:[['오늘',54],['현재',28],['금일',18]]},{pick:'접수된',alts:[['접수된',61],['처리된',24],['확인된',15]]},{pick:'18건',alts:[['18건',47],['요청',32],['서비스',21]]},{pick:'중',alts:[['중',72],['가운데',17],['에서',11]]},{pick:'3건은',alts:[['3건은',58],['일부는',27],['요청은',15]]},{pick:'부품 수급을',alts:[['부품 수급을',51],['담당자가',31],['현재',18]]},{pick:'확인 중입니다.',alts:[['확인 중입니다.',64],['안내했습니다.',22],['처리했습니다.',14]]}
-    ];
-    var guide=[
-      ['질문 입력','AI가 받은 질문을 그대로 읽습니다. ‘다음’을 눌러 말 조각으로 나눠 보세요.','질문 확인'],
-      ['말 조각 분리','문장을 작은 말 조각(토큰)으로 나눕니다. 움직임이 끝나도 자동으로 넘어가지 않습니다.','7개 토큰'],
-      ['문장 패턴 비교','학습했던 비슷한 문장의 흐름을 천천히 비교합니다. 실제 문서를 조회하는 단계는 아닙니다.','패턴 비교'],
-      ['후보·확률 계산','다음에 올 수 있는 말 조각별 가능성을 계산합니다. 아래 숫자는 이해를 돕기 위한 예시입니다.','후보 계산'],
-      ['단어 선택','가장 가능성이 높은 조각을 답에 붙입니다. ‘다음 단어’를 누를 때마다 한 조각씩 진행합니다.','단어 선택'],
-      ['답변 완성','문장은 자연스럽지만 우리 센터의 실제 숫자를 조회한 것은 아닙니다. 숫자와 사실을 반드시 확인하세요.','답 완성']
-    ];
-    function clearTimers(){timers.forEach(clearTimeout);timers=[];animating=false}
-    function later(fn,ms){var id=setTimeout(fn,ms);timers.push(id)}
-    function lock(ms){animating=true;updateNav();later(function(){animating=false;updateNav()},ms)}
-    function setCandidates(round,animate){candidates.forEach(function(row,i){var a=round.alts[i],fill=row.querySelector('.axg-fill');row.querySelector('.axg-word').textContent=a[0];row.querySelector('.axg-pct').textContent=a[1]+'%';fill.style.transition='none';fill.style.width=animate?'0%':a[1]+'%';void fill.offsetWidth;if(animate){fill.style.transition='width 1.15s cubic-bezier(.2,.8,.2,1)';requestAnimationFrame(function(){fill.style.width=a[1]+'%'})}})}
-    function blankCandidates(){candidates.forEach(function(row){row.classList.remove('is-picked');var fill=row.querySelector('.axg-fill');fill.style.transition='none';fill.style.width='0%'})}
-    function renderAnswer(count,animateLast){answer.innerHTML='';if(!count){answer.innerHTML='<span class="axg-placeholder">이곳에 선택된 말 조각이 차례로 붙습니다.</span>';return}rounds.slice(0,count).forEach(function(r,i){var span=document.createElement('span');span.className='axg-out-token'+(animateLast&&i===count-1?' is-new':'');span.textContent=r.pick;answer.appendChild(span)});if(stage===5){var caret=document.createElement('span');caret.className='axg-caret';answer.appendChild(caret)}}
-    function updateNav(){prevBtn.disabled=animating||(stage===1&&wordCount===0);nextBtn.disabled=animating||stage===6;nextBtn.textContent=(stage===5&&wordCount<rounds.length)?'다음 단어 ▶':(stage===5?'답변 완성 ▶':'다음 ▶');nextBtn.setAttribute('aria-label',nextBtn.textContent.replace('▶','').trim())}
-    function baseVisuals(){steps.forEach(function(s,i){s.classList.toggle('is-active',i===stage-1);s.classList.toggle('is-done',i<stage-1);s.setAttribute('aria-current',i===stage-1?'step':'false')});dots.forEach(function(d,i){d.classList.toggle('is-active',i===stage-1);d.classList.toggle('is-done',i<stage-1)});cards.forEach(function(c){c.classList.remove('is-active','is-scanning')});tokens.forEach(function(t){t.classList.remove('is-on')});patterns.forEach(function(p){p.classList.remove('is-match')});candidates.forEach(function(c){c.classList.remove('is-picked')});warning.classList.toggle('is-final',stage===6);stageCount.textContent='단계 '+stage+'/6';stageTitle.textContent=guide[stage-1][0];stageDesc.textContent=guide[stage-1][1];progress.textContent=guide[stage-1][2]}
-    function render(animate){clearTimers();baseVisuals();tokenStatus.textContent=stage>=2?'7개 조각':'대기';patternStatus.textContent=stage>=3?'패턴 연결':'대기';candidateStatus.textContent=stage>=4?'다음 조각 후보':'대기';pickStatus.textContent=wordCount?'‘'+rounds[Math.max(0,wordCount-1)].pick+'’ 선택':'선택 전';picked.textContent=wordCount?rounds[Math.max(0,wordCount-1)].pick:'—';roundEl.textContent=wordCount+' / '+rounds.length;renderAnswer(wordCount,false);blankCandidates();
-      if(stage===1){cards[0].classList.add('is-active');status.textContent='강사가 ‘다음’을 누를 때만 다음 단계로 이동합니다.'}
-      if(stage===2){cards[1].classList.add('is-active');tokenStatus.textContent='조각내는 중';status.textContent='질문을 7개의 작은 말 조각으로 나누고 있습니다.';if(animate){tokens.forEach(function(t,i){later(function(){t.classList.add('is-on')},i*155)});later(function(){tokenStatus.textContent='7개 조각'},1100);lock(1180)}else{tokens.forEach(function(t){t.classList.add('is-on')});tokenStatus.textContent='7개 조각'}}
-      if(stage===3){cards[2].classList.add('is-active');patternStatus.textContent='비슷한 흐름 탐색';status.textContent='학습했던 문장 흐름과 비교합니다. 다음 단계는 버튼을 눌러야 시작됩니다.';if(animate){cards[2].classList.add('is-scanning');later(function(){patterns[0].classList.add('is-match')},650);later(function(){cards[2].classList.remove('is-scanning');patternStatus.textContent='패턴 연결'},1500);lock(1540)}else{patterns[0].classList.add('is-match');patternStatus.textContent='패턴 연결'}}
-      if(stage===4){cards[3].classList.add('is-active');candidateStatus.textContent='첫 단어 후보';status.textContent='첫 단어 후보의 가능성을 천천히 계산합니다. 수치는 작동 원리를 설명하기 위한 예시입니다.';setCandidates(rounds[0],animate);if(animate)lock(1200)}
-      if(stage===5){cards[3].classList.add('is-active');cards[4].classList.add('is-active');cards[5].classList.add('is-active');var idx=Math.max(0,wordCount-1),r=rounds[idx];candidateStatus.textContent='단어 '+wordCount+' / '+rounds.length+' 후보';status.textContent=wordCount<rounds.length?'한 조각을 붙였습니다. ‘다음 단어’를 누르면 다음 후보 계산과 선택이 한 번 진행됩니다.':'7개 조각을 모두 붙였습니다. ‘답변 완성’을 눌러 핵심 메시지를 확인하세요.';setCandidates(r,animate);renderAnswer(wordCount,animate);if(animate){later(function(){candidates[0].classList.add('is-picked')},760);lock(1220)}else{candidates[0].classList.add('is-picked')}}
-      if(stage===6){steps.forEach(function(s,i){s.classList.toggle('is-done',i<5)});cards[5].classList.add('is-active');renderAnswer(rounds.length,false);roundEl.textContent=rounds.length+' / '+rounds.length;status.textContent='문장은 완성됐지만, 숫자와 사실은 실제 시스템·원자료에서 확인해야 합니다.'}
-      updateNav()
-    }
-    function next(){if(animating||stage===6)return;if(stage<4){stage+=1}else if(stage===4){stage=5;wordCount=1}else if(stage===5&&wordCount<rounds.length){wordCount+=1}else if(stage===5){stage=6}render(true)}
-    function prev(){if(animating||(stage===1&&wordCount===0))return;if(stage===6){stage=5;wordCount=rounds.length}else if(stage===5&&wordCount>1){wordCount-=1}else if(stage===5){stage=4;wordCount=0}else{stage-=1}render(true)}
-    function reset(){stage=1;wordCount=0;render(false)}
-    function widgetVisible(){var r=root.getBoundingClientRect(),visible=Math.min(r.bottom,window.innerHeight)-Math.max(r.top,0);return r.width>0&&r.height>0&&visible>=Math.min(180,r.height*.25)}
-    function editable(el){return el&&(el.matches('input,textarea,select,[contenteditable="true"]')||el.closest('input,textarea,select,[contenteditable="true"]'))}
-    prevBtn.addEventListener('click',prev);nextBtn.addEventListener('click',next);resetBtn.addEventListener('click',reset);
-    document.addEventListener('keydown',function(e){if(e.defaultPrevented||e.ctrlKey||e.metaKey||e.altKey||e.shiftKey||!widgetVisible()||editable(e.target))return;var active=document.activeElement;if(active&&active!==document.body&&!root.contains(active))return;if(e.key==='ArrowRight'){e.preventDefault();next()}else if(e.key==='ArrowLeft'){e.preventDefault();prev()}});
-    reset();
-  });
-})();
-</script>
 </div>
 <!-- 그래서 잘하는 일 / 못하는 일 -->
 <h3 class="font-bold text-xl text-gray-800 mb-3"><i class="fas fa-scale-balanced text-[#C10933] mr-2"></i>그래서 — AI가 잘하는 일과 못하는 일이 갈립니다</h3>
@@ -1397,21 +1241,7 @@
 </div>
 </div>
 </div>
-<div class="p-5 bg-gray-50 border border-gray-200 rounded-xl mb-6">
-<p class="font-bold text-gray-800 text-sm mb-3"><i class="fas fa-pen-to-square text-[#C10933] mr-1.5"></i>직접 해 보세요 (3분)</p>
-<p class="text-sm text-gray-600 mb-3">
-                    지금 여러분의 받은메일함에서 <strong>고객 건이 언급된 메일 하나</strong>를 떠올려 보세요.
-                    그 내용을 아래 형식으로 바꿔 적어 보시면 그게 바로 마스킹입니다.
-                </p>
-<div class="p-4 bg-white rounded-lg border border-gray-200 text-sm font-mono text-gray-600">
-                    "한 고객이 [제품군]에서 [증상]으로 [경과: ○회 방문 / ○일 경과] 상태이며 [요구사항]을 요청하는 상황이야.<br/>
-                     [내가 원하는 것]을 [형식]으로 정리해줘."
-                </div>
-<p class="text-xs text-amber-700 mt-3">
-<i class="fas fa-lightbulb mr-1"></i><strong>관리자 팁:</strong> 이 형식을 센터 구성원에게 공유해 주세요.
-                    "AI 쓰지 마라"보다 <strong>"이렇게 바꿔서 쓰라"</strong>가 훨씬 잘 지켜집니다.
-                </p>
-</div>
+
 <div class="mb-12 p-4 bg-red-50 border-l-4 border-red-500 rounded-r-xl text-sm text-gray-700">
 <p class="font-bold text-red-800 mb-1"><i class="fas fa-camera mr-1.5"></i>화면 캡처도 똑같이 조심하세요</p>
 <p>시스템 화면을 캡처해 붙여넣을 때 <strong>고객명·연락처가 같이 찍히지 않도록 잘라내거나 가려서</strong> 올려야 합니다.</p>
@@ -1430,27 +1260,16 @@
 <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-white" style="color:#C10933;">2023년 화제의 AI 밈</span>
 </div>
 <div class="p-5 bg-white">
-<div class="grid md:grid-cols-3 gap-3 text-sm">
-<div class="p-4 rounded-xl border border-gray-200 bg-gray-50">
-<div class="flex items-center gap-2 mb-2">
-<span class="w-7 h-7 rounded-full text-white flex items-center justify-center text-xs font-bold shrink-0" style="background:#C10933;">Q</span>
-<p class="font-bold text-gray-800">질문</p>
-</div>
-<p class="text-gray-700 leading-relaxed">“조선왕조실록에 기록된 세종대왕의 맥북프로 던짐 사건에 대해 알려줘.”</p>
-</div>
-<div class="p-4 rounded-xl border-2 bg-red-50" style="border-color:#F2B8C5;">
-<div class="flex items-center gap-2 mb-2">
-<span class="w-7 h-7 rounded-full text-white flex items-center justify-center text-xs font-bold shrink-0" style="background:#C10933;">A</span>
-<p class="font-bold" style="color:#991B1B;">AI 답변 — 그럴듯한 거짓</p>
-</div>
-<p class="text-gray-700 leading-relaxed">“세종대왕이 훈민정음 초고를 쓰던 중 담당자에게 분노해 맥북프로와 함께 그를 방으로 던졌고, 그 일이 실록에 남았다.” <span class="text-xs text-gray-500">(당시 답변 요약)</span></p>
-</div>
-<div class="p-4 rounded-xl border-2" style="border-color:#C10933;background:#FFF7F9;">
-<div class="flex items-center gap-2 mb-2">
-<span class="w-7 h-7 rounded-full text-white flex items-center justify-center text-xs font-bold shrink-0" style="background:#C10933;">!</span>
-<p class="font-bold" style="color:#991B1B;">교훈 — 업무에서는 이렇게</p>
-</div>
-<p class="text-gray-800 leading-relaxed"><strong>AI는 모르는 것도 자신 있게 지어냅니다.</strong><br/>숫자·날짜·규정·조문 번호는 <strong style="color:#C10933;">반드시 원문과 대조</strong>하세요.</p>
+<div class="grid md:grid-cols-5 gap-4 items-start">
+<figure class="md:col-span-3 rounded-xl border border-gray-200 overflow-hidden bg-gray-50">
+<img src="https://newsimg.hankookilbo.com/cms/articlerelease/2023/02/22/ffe53e88-d71f-48e7-a2f4-11782c6bc74a.png" alt="ChatGPT에 세종대왕 맥북프로 던짐 사건을 질문한 실제 대화 화면" class="w-full h-auto block" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
+<div style="display:none" class="p-4 text-sm text-gray-600"><strong>Q.</strong> "조선왕조실록에 기록된 세종대왕의 맥북프로 던짐 사건에 대해 알려줘."<br><strong>A.</strong> 세종대왕이 훈민정음 초고를 쓰다 담당자에게 화가 나 맥북프로를 던졌고 실록에 남았다는 식으로 답변</div>
+<figcaption class="px-3 py-2 text-[11px] text-gray-500 border-t border-gray-200 bg-white">실제 대화 결과 화면 · 출처: 한국일보(2023.2.23)</figcaption>
+</figure>
+<div class="md:col-span-2 space-y-3 text-sm">
+<div class="p-4 rounded-xl border border-gray-200 bg-gray-50"><p class="font-bold text-gray-800 mb-1">무엇을 물었나</p><p class="text-gray-700">있지도 않은 "세종대왕 맥북프로 던짐 사건"을 실록에 있는 것처럼 물었습니다.</p></div>
+<div class="p-4 rounded-xl border-2 bg-red-50" style="border-color:#F2B8C5;"><p class="font-bold mb-1" style="color:#991B1B;">AI는 어떻게 답했나</p><p class="text-gray-700">"없는 일"이라고 하지 않고, <strong>실제 역사처럼 그럴듯한 이야기</strong>를 지어냈습니다.</p></div>
+<div class="p-4 rounded-xl border-2" style="border-color:#C10933;background:#FFF7F9;"><p class="font-bold mb-1" style="color:#991B1B;">업무에서는</p><p class="text-gray-800"><strong>AI는 모르는 것도 자신 있게 지어냅니다.</strong> 숫자·날짜·규정·조문 번호는 <strong style="color:#C10933;">반드시 원문과 대조</strong>하세요.</p></div>
 </div>
 </div>
 <div class="mt-4 p-3.5 rounded-xl border border-gray-200 bg-gray-50 text-xs text-gray-700 leading-relaxed">
@@ -1461,7 +1280,7 @@ AI는 사실을 조회하는 것이 아니라, <strong>확률적으로 가장 �
 <div class="mt-3 p-3.5 rounded-xl text-xs leading-relaxed" style="background:#FFF0F4;color:#7A1731;">
 <i class="fas fa-wand-magic-sparkles mr-1.5"></i><strong>프롬프트 팁</strong> — “확실하지 않으면 모른다고 답하고, 근거가 있는 내용만 알려줘.”라고 덧붙이세요. 단, 이 문장도 <strong>원문 검증을 대신하지는 않습니다.</strong>
 </div>
-<p class="mt-3 text-[11px] text-gray-500">※ 공개 보도 내용을 요약·재구성: 한국일보(2023.2.23), 조선일보(2023.3.4), 조선비즈(2023.5.16)</p>
+<p class="mt-3 text-[11px] text-gray-500">※ 참고: 한국일보(2023.2.23), 조선비즈(2023.5.16)</p>
 </div>
 </div>
 <div class="mb-6 rounded-2xl border-2 border-red-200 overflow-hidden">
@@ -1925,7 +1744,7 @@ AI는 사실을 조회하는 것이 아니라, <strong>확률적으로 가장 �
 <p class="text-sm text-gray-600 mb-3">표만 보내면 "그래서 왜 그런가"를 다시 물어옵니다. <strong>표 + 3줄 설명</strong>을 함께 보내면 왕복이 한 번에 끝납니다.</p>
 <div class="prompt-box" style="margin-top:0">
 <span class="prompt-label">씬 3 — 실적 회신 문서</span>
-                            아래 우리 센터 주간 실적으로 회신 문서을 만들어줘.
+                            아래 우리 센터 주간 실적으로 회신 문서를 만들어줘.
 
                             [내 숫자] (3-1 실습 ⓪ 세로 표에서 복사)
                             - 종합점수·순위 (연간누적 / 당월누적)
@@ -2153,7 +1972,7 @@ AI는 사실을 조회하는 것이 아니라, <strong>확률적으로 가장 �
             </p>
 <div class="prompt-box">
 <span class="prompt-label">일마감 보고 문서 프롬프트</span>
-                서비스센터 일마감 보고 문서을 써줘.
+                서비스센터 일마감 보고 문서를 써줘.
 
                 [오늘 현황]
                 - 접수 ○○건 / 완료 ○○건 / 미처리 ○건
@@ -2182,7 +2001,7 @@ AI는 사실을 조회하는 것이 아니라, <strong>확률적으로 가장 �
             </p>
 <div class="prompt-box">
 <span class="prompt-label">품의 사유 문서 프롬프트</span>
-                품의 사유 문서을 작성해줘.
+                품의 사유 문서를 작성해줘.
 
                 [품의 내용]
                 - 건명: 타센터 자재 이체
@@ -2204,7 +2023,7 @@ AI는 사실을 조회하는 것이 아니라, <strong>확률적으로 가장 �
             </p>
 <div class="prompt-box">
 <span class="prompt-label">주간 보고 문서 프롬프트 (단계적 사고 적용)</span>
-                우리 센터 주간 보고 문서을 만들어줘. 아래 순서로 생각해서 정리해줘.
+                우리 센터 주간 보고 문서를 만들어줘. 아래 순서로 생각해서 정리해줘.
 
                 [이번 주 상황]
                 - 주간 접수 ○○○건 / 완료율 ○○%
@@ -2669,7 +2488,7 @@ AI는 사실을 조회하는 것이 아니라, <strong>확률적으로 가장 �
 <div class="pd-no">PART 4</div>
 <div class="pd-title">대시보드 · 발표자료</div>
 <div class="pd-desc">같은 데이터를 확인용 대시보드와 보고용 발표자료, 두 가지 형식으로 만듭니다.</div>
-<div class="pd-chips"><a href="#dash-build">4-1. 같은 데이터로 대시보드</a><a href="#slide-build">4-2. 같은 데이터로 발표자료</a><a href="#dash-share">4-3. 공유 기준 · 마무리</a></div>
+<div class="pd-chips"><a href="#dash-build">4-1. 같은 데이터로 대시보드</a><a href="#slide-build">4-2. 같은 데이터로 발표자료</a><a href="#dash-share">4-3. 공유 기준</a></div>
 </div>
 <section class="content-section" id="dash-build">
 <h2 class="section-header">4-1. 같은 데이터로 대시보드 만들기 <span class="lab-badge align-middle" style="font-size:13px"><i class="fas fa-laptop-code"></i> 실습</span></h2>
@@ -2839,7 +2658,7 @@ AI는 사실을 조회하는 것이 아니라, <strong>확률적으로 가장 �
              4-3. 공유 기준 · 마무리
         ============================================================ -->
 <section class="content-section" id="dash-share">
-<h2 class="section-header">4-3. 공유 기준 · 마무리</h2>
+<h2 class="section-header">4-3. 공유 기준</h2>
 <p class="text-sm text-gray-600 mb-6">대시보드·발표자료 모두 센터 데이터가 들어간 파일이므로 <strong>공유 경로가 곧 보안</strong>입니다. 아래 기준만 지키면 됩니다.</p>
 <div class="grid md:grid-cols-3 gap-5 mb-8">
 <div class="p-5 bg-white border-2 border-green-300 rounded-2xl">
@@ -2859,7 +2678,59 @@ AI는 사실을 조회하는 것이 아니라, <strong>확률적으로 가장 �
 <p class="font-bold text-blue-900 mb-1"><i class="fas fa-circle-info mr-1.5"></i>참고 — 곧 사내에서 '링크로 보는 대시보드'도 가능해질 예정입니다</p>
 <p class="text-xs">SharePoint에 HTML을 올리면 파일 다운로드가 아니라 <strong>페이지로 바로 보이는 기능</strong>이 2026년 10월부터 순차 배포될 예정입니다(로드맵 기준, 일정 변동 가능). 사내 적용 시 별도 안내드리겠습니다.</p>
 </div>
-<div class="mt-12 mb-8 border-t-2 border-gray-200"></div>
+</section>
+<div class="part-divider" id="part-start-5">
+<span class="pd-big">05</span>
+<div class="pd-no">PART 5</div>
+<div class="pd-title">조별 실습 · 발표</div>
+<div class="pd-desc">오늘 배운 것으로 우리 센터 업무 하나를 직접 만들고, 서로 공유합니다.</div>
+<div class="pd-chips"><a href="#group-lab">5-1. 조별 실습 · 발표</a><a href="#closing">5-2. 마무리 &amp; Q&amp;A</a></div>
+</div>
+<section class="content-section" id="group-lab">
+<h2 class="section-header">5-1. 조별 실습 · 발표 <span class="lab-badge align-middle" style="font-size:13px"><i class="fas fa-laptop-code"></i> 실습</span></h2>
+<p class="text-lg mb-3">오늘 실습한 프롬프트를 <strong>우리 센터 실제 상황</strong>에 적용해 결과물 하나를 만듭니다.</p>
+<p class="text-sm text-gray-600 mb-8">새로 배우는 시간이 아닙니다. <strong>앞에서 쓴 프롬프트를 복사해 우리 조 상황만 바꿔 넣으면</strong> 됩니다.</p>
+<div class="overflow-x-auto mb-10">
+<table class="w-full text-sm border border-gray-200 rounded-xl overflow-hidden">
+<thead class="bg-gray-100 text-gray-700"><tr><th class="p-3 text-left w-36">시간</th><th class="p-3 text-left w-40">단계</th><th class="p-3 text-left">할 일</th></tr></thead>
+<tbody class="divide-y divide-gray-100">
+<tr class="bg-red-50"><td class="p-3 font-bold text-red-700">14:50~15:20<br><span class="text-xs font-normal text-gray-500">30분</span></td><td class="p-3 font-bold text-red-700">① 만들기</td><td class="p-3 text-gray-700">트랙 하나를 고르고, <strong>한 명이 화면을 띄우고 조원이 함께</strong> 프롬프트를 다듬습니다. 처음 5분 안에 업무를 정하세요.</td></tr>
+<tr class="bg-purple-50"><td class="p-3 font-bold text-purple-700">15:20~15:50<br><span class="text-xs font-normal text-gray-500">30분</span></td><td class="p-3 font-bold text-purple-700">② 발표</td><td class="p-3 text-gray-700">조당 <strong>3~4분 화면 시연</strong> + 강사 피드백</td></tr>
+<tr><td class="p-3 font-bold text-gray-600">15:50~16:00<br><span class="text-xs font-normal text-gray-500">10분</span></td><td class="p-3 font-bold text-gray-600">③ 마무리</td><td class="p-3 text-gray-700">5-2 마무리 · Q&amp;A</td></tr>
+</tbody></table></div>
+<h3 class="font-bold text-xl mb-3"><i class="fas fa-route mr-2 text-red-600"></i>트랙 선택 — 조에서 하나만 고르세요</h3>
+<div class="grid md:grid-cols-2 gap-6 mb-10">
+<div class="border-2 border-red-200 rounded-2xl overflow-hidden">
+<div class="bg-[#C10933] text-white px-5 py-4"><p class="font-bold text-lg"><i class="fas fa-list-check mr-2"></i>트랙 A. 실행계획 → 보고 발표자료</p><p class="text-xs text-red-100 mt-0.5">가장 추천 · 3·4교시 이어서</p></div>
+<div class="p-5 text-sm text-gray-700">
+<ol class="list-decimal pl-5 space-y-1.5 mb-4">
+<li>조원 센터 중 하나를 골라 스코어카드에서 <strong>[○○센터]</strong> 기준으로 3-2 1~5단계 진행</li>
+<li>6단계 <strong>실행계획표</strong> 완성 (우리 센터 실제 인력 조건 입력)</li>
+<li>같은 대화창에서 4-2 프롬프트로 <strong>보고 발표자료</strong> 생성</li>
+</ol>
+<p class="text-xs text-gray-500"><strong>결과물:</strong> 실행계획표 + 발표자료 HTML</p>
+</div></div>
+<div class="border-2 border-blue-200 rounded-2xl overflow-hidden">
+<div class="bg-blue-600 text-white px-5 py-4"><p class="font-bold text-lg"><i class="fas fa-envelope-open-text mr-2"></i>트랙 B. 우리 센터 메일·보고 문서 템플릿</p><p class="text-xs text-blue-100 mt-0.5">매일 쓰는 문서를 프롬프트로 굳히기</p></div>
+<div class="p-5 text-sm text-gray-700">
+<ol class="list-decimal pl-5 space-y-1.5 mb-4">
+<li>조원이 <strong>가장 자주 쓰는 문서 1개</strong> 선정 (회신, 일마감, 주간 보고, SM 지시 등)</li>
+<li>2-1·2-2 프롬프트를 복사해 <strong>우리 센터 형식·금지 규칙</strong>으로 수정</li>
+<li>서로 다른 상황 2개를 넣어 테스트 → 어긋난 부분을 규칙으로 추가</li>
+</ol>
+<p class="text-xs text-gray-500"><strong>결과물:</strong> 바로 복사해 쓰는 프롬프트 1개 + 결과 예시</p>
+</div></div>
+</div>
+<div class="grid md:grid-cols-2 gap-6 mb-4">
+<div class="p-5 bg-gray-50 border border-gray-200 rounded-xl"><p class="font-bold text-gray-800 mb-2"><i class="fas fa-person-chalkboard text-[#C10933] mr-1.5"></i>발표 순서 (3~4분)</p>
+<ol class="list-decimal pl-5 text-sm text-gray-700 space-y-1"><li>어떤 업무를 골랐나 (왜 이게 제일 답답했나)</li><li>화면 시연 — 프롬프트와 결과</li><li>센터에 돌아가 <strong>누가, 언제부터</strong> 쓸지</li></ol></div>
+<div class="p-5 bg-amber-50 border border-amber-200 rounded-xl text-sm text-gray-700"><p class="font-bold text-amber-900 mb-2"><i class="fas fa-triangle-exclamation mr-1.5"></i>조건 하나</p>
+<p>발표 때 <strong>실제로 동작하는 화면</strong>을 보여줘야 합니다. 아이디어 설명만으로는 안 됩니다. 고객정보는 넣지 않습니다.</p></div>
+</div>
+</section>
+<section class="content-section" id="closing">
+<h2 class="section-header">5-2. 마무리 &amp; Q&amp;A</h2>
+
 <!-- 핵심 메시지 -->
 <div class="mt-4 p-8 md:p-10 rounded-3xl text-center text-white" style="background:linear-gradient(135deg,#2a0d18 0%,#8E0726 60%,#C10933 120%);">
 <i class="fas fa-quote-left text-3xl mb-4" style="color:rgba(255,255,255,.4);"></i>
@@ -2884,24 +2755,29 @@ AI는 사실을 조회하는 것이 아니라, <strong>확률적으로 가장 �
 </thead>
 <tbody class="divide-y divide-gray-100">
 <tr>
-<td class="p-3 font-bold text-gray-500">1교시<br/><span class="text-xs font-normal text-gray-400">10:40~11:30</span></td>
+<td class="p-3 font-bold text-gray-500">1교시<br/><span class="text-xs font-normal text-gray-400">11:05~11:45</span></td>
 <td class="p-3 font-bold text-gray-800">AI 원리 · 프롬프트 · 보안</td>
 <td class="p-3 text-gray-700"><strong>"내가 재료를 줬는가?"</strong> — 안 줬는데 답이 나오면 의심하세요.</td>
 </tr>
 <tr>
-<td class="p-3 font-bold text-gray-500">2교시<br/><span class="text-xs font-normal text-gray-400">11:40~12:30</span></td>
+<td class="p-3 font-bold text-gray-500">2교시<br/><span class="text-xs font-normal text-gray-400">11:45~12:30</span></td>
 <td class="p-3 font-bold text-gray-800">메일 · 보고 문서</td>
-<td class="p-3 text-gray-700"><strong>메일과 메모를 짧게 정리해 문서으로 바꿉니다.</strong> 문장은 AI가, 확인은 내가.</td>
+<td class="p-3 text-gray-700"><strong>메일과 메모를 짧게 정리해 문서로 바꿉니다.</strong> 문장은 AI가, 확인은 내가.</td>
 </tr>
 <tr>
-<td class="p-3 font-bold text-gray-500">3교시<br/><span class="text-xs font-normal text-gray-400">13:30~14:30</span></td>
+<td class="p-3 font-bold text-gray-500">3교시<br/><span class="text-xs font-normal text-gray-400">13:30~14:10</span></td>
 <td class="p-3 font-bold text-gray-800">스코어카드 · 실행계획</td>
 <td class="p-3 text-gray-700"><strong>사실 → 원인 후보 → 실행계획</strong>. 누가·무엇을·언제까지, 다음 주 확인할 숫자까지 정해야 끝납니다.</td>
 </tr>
 <tr>
-<td class="p-3 font-bold text-gray-500">4교시<br/><span class="text-xs font-normal text-gray-400">14:40~15:30</span></td>
+<td class="p-3 font-bold text-gray-500">4교시<br/><span class="text-xs font-normal text-gray-400">14:10~14:50</span></td>
 <td class="p-3 font-bold text-gray-800">대시보드 · 발표자료</td>
 <td class="p-3 text-gray-700"><strong>같은 데이터, 다른 형식.</strong> 확인은 대시보드로, 보고는 발표자료로. 공유는 사내 경로로.</td>
+</tr>
+<tr>
+<td class="p-3 font-bold text-gray-500">5교시<br/><span class="text-xs font-normal text-gray-400">14:50~16:00</span></td>
+<td class="p-3 font-bold text-gray-800">조별 실습 · 발표</td>
+<td class="p-3 text-gray-700"><strong>직접 만들어 본 것만 남습니다.</strong> 발표한 그 프롬프트를 내일 센터에서 그대로 쓰세요.</td>
 </tr>
 </tbody>
 </table>
@@ -2915,7 +2791,7 @@ AI는 사실을 조회하는 것이 아니라, <strong>확률적으로 가장 �
 <p class="text-xl md:text-2xl font-extrabold text-gray-900 mb-2">오늘 배운 걸 다 기억하지 못해도 괜찮습니다.</p>
 <p class="text-lg text-gray-700">
 <strong class="text-[#C10933]">내일 아침, 딱 한 가지만</strong> 해 보세요.<br/>
-<strong>오늘 일마감 보고 문서을 AI에게 시켜보기</strong> — 그거 하나면 충분합니다.
+<strong>오늘 일마감 보고 문서를 AI에게 시켜보기</strong> — 그거 하나면 충분합니다.
                     </p>
 </div>
 </div>
@@ -2949,7 +2825,7 @@ AI는 사실을 조회하는 것이 아니라, <strong>확률적으로 가장 �
                         오히려 <strong>AI를 써 본 사람이 많은 센터일수록</strong> 새 도구가 들어왔을 때 훨씬 빨리 정착합니다.</p>
 </div>
 <div>
-<p class="font-bold text-gray-900">Q. AI가 만든 문서을 그대로 보고해도 되나요?</p>
+<p class="font-bold text-gray-900">Q. AI가 만든 문서를 그대로 보고해도 되나요?</p>
 <p class="mt-1">A. <strong>확인 후에는 됩니다.</strong> 숫자를 대조하고, 내가 확인하지 않은 원인 단정과 날짜 약속을 지웠다면 문제없습니다.
                         <strong>확인하지 않고 보내는 것</strong>이 문제입니다.</p>
 </div>
